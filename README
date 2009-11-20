@@ -1,0 +1,7 @@
+Future features:
+ * https support
+ * varying levels of logging of request data (headers, params, POST body)
+ * view all action across all paths
+ * administrative clean out of data
+ * have the system only track the last XX for each path and YYYY total
+ * automatic cleanout periodically of extra data
