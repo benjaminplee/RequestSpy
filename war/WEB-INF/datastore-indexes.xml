@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<datastore-indexes autoGenerate="false">
+    <datastore-index kind="SpiedRequest" ancestor="false" source="auto">
+        <property name="path" direction="asc"/>
+        <property name="when" direction="desc"/>
+    </datastore-index>
+</datastore-indexes>
