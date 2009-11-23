@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /request/
+Disallow: /spy/
+Disallow: /admin/
+Disallow: /all/
