@@ -1,6 +1,7 @@
 Version 1.0 is done and deployed to http://requestspy.appspot.com/
 
 Future features:
+ * track headers and request parameters
  * https support
  * varying levels of logging of request data (headers, params, POST body)
  * view all action across all paths

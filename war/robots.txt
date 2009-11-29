@@ -3,3 +3,4 @@ Disallow: /request/
 Disallow: /spy/
 Disallow: /admin/
 Disallow: /all/
+Disallow: /stylesheets/

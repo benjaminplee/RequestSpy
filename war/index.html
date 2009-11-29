@@ -1,33 +1,42 @@
 <html>
   <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <title>Request Spy</title>
+    <title>RequestSPY</title>
+    <link href="/main.css" media="screen" rel="stylesheet" type="text/css" />
   </head>
-  <body>
-  	<center>
-    	<h1>Request Spy</h1>
-    	<h3>Need a way to check what was sent to a URL?  Done. </h3>
-    	<br /><br />
-    	<p>
-    		Send your requests to any URL starting with /request/
-    	</p>
-    	<p>
-    		<i>e.g. try clicking here: <a href="request/tryMe"><strong>request</strong>/TryMe</a></i>
-    	</p>
-    	<br /><br />
-    	<p>
-    		Spy on the traffic that comes across by replacing /request/ with /spy/
-    	</p>
-    	<p>
-    		<i>e.g. spy here: <a href="spy/tryMe"><strong>spy</strong>/TryMe</a></i>
-    	</p>
-    	<br /><br />
-    	<p>
-    		Source code is hosted on <a href="http://github.com/benjaminplee/RequestSpy">GitHub</a>
-    	</p>
-    	<p>
-    		<img src="http://code.google.com/appengine/images/appengine-silver-120x30.gif" alt="Powered by Google App Engine" />
-    	</p>
-    </center>
+  <body class="center">
+	<h1>Request<span class="accent">Spy</span></h1>
+	<h3>Need a way to check what was sent to a URL? <span class="accent">Done.</span></h3>
+	<div class="box one">
+		<h2 class="accent">1... Request</h2>
+		<p>
+			Send a GET or POST request to any URL starting with <span class="accent">request/</span>
+			<br />
+			<i>e.g. click <a href="request/try/me"><strong>request</strong>/try/me</a></i>
+		</p>
+	</div>
+	<div class="box two">
+		<h2 class="accent">2... Spy</h2>
+		<p>
+			Spy on your requests by going to the same URL but replace request/ with <span class="accent">spy/</span>
+			<br />
+			<i>e.g. click <a href="spy/try/me"><strong>spy</strong>/try/me</a></i>
+		</p>
+	</div>
+	<p class="info">
+		<span class="accent">Features:</span><br />
+		GET and POST requests will be saved<br />
+		The date, time, headers, and request parameters will be saved<br />
+		Any URL path and file extension can be used<br />
+	</p>
+	<p class="info">
+		<i>
+			Site created by <a href="http://twoguysarguing.wordpress.com/">Benjamin P Lee</a>
+			<br />
+			Source code is hosted on <a href="http://github.com/benjaminplee/RequestSpy">GitHub</a>
+			<br />
+			<a href="http://code.google.com/appengine/"><img src="http://code.google.com/appengine/images/appengine-silver-120x30.gif" alt="Powered by Google App Engine" /></a>
+		</i>
+	</p>
   </body>
 </html>
